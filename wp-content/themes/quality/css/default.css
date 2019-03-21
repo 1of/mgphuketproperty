@@ -1,0 +1,396 @@
+/*
+* Author: Quality
+* Created by: Shahid (Scientech IT)
+* Copyright (c) 2018 Quality
+* Date: 23 April, 2018
+* http://www.webriti.com
+* Name: default.css
+*/
+
+
+/*===================================================================================*/
+/*	NAVBAR
+/*===================================================================================*/
+
+
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav .open > a,
+.navbar-custom .navbar-nav .open > a:focus,
+.navbar-custom .navbar-nav .open > a:hover, 
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+	color: #31b898;
+}
+.cart-header:hover > a { color: #31b898; }
+.cart-header > a .cart-total { background: #31b898; }
+
+a{ color: #31b898;}
+
+body a:hover {
+	color: #36B097;
+}
+
+#searchsubmit {
+    background-color: #31b898;
+    border: 2px solid #31b898;
+}
+
+.pagination .nav-links .page-numbers.current 
+{ background-color: #31b898; border: 1px solid #31b898;}
+/*===================================================================================*/
+/*	HEADER CONTACT DETAILS
+/*===================================================================================*/
+
+.header-sidebar { background: #31b898; }
+.header-sidebar .widget table a { color: #31b898; }
+
+/*===================================================================================*/
+/*	MAIN SLIDER
+/*===================================================================================*/
+
+.slider-caption h1:after, .slide-btn-sm, input[type="submit"], input[type="reset"]:hover{ background: #31b898; }
+
+/*===================================================================================*/
+/*	OWL SLIDER NEXT - PREV BUTTONS
+/*===================================================================================*/
+
+.owl-carousel .owl-prev:hover, .owl-carousel .owl-next:hover, 
+#portfolio-carousel .owl-prev:hover, #portfolio-carousel .owl-next:hover, 
+#testimonial-carousel .owl-prev:hover, #testimonial-carousel .owl-next:hover { 
+	background-color: rgba(0, 167, 211, 1);
+}
+
+/*===================================================================================*/
+/*	OWL SLIDER / DOTS PAGINATIONS
+/*===================================================================================*/
+
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span, 
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #31b898;
+	border: 2px solid #31b898;
+}
+
+/*===================================================================================*/
+/*	SECTION HEADER
+/*===================================================================================*/
+
+hr.divider { background-color: #31b898; }
+
+/*===================================================================================*/
+/*	MIXED CLASSES
+/*===================================================================================*/
+
+.bg-default { background-color: #31b898; }
+.text-default { color: #31b898; }
+.btn-large, .wpcf7-submit { background-color: #31b898; border: 2px solid #31b898; }
+.btn-small:active, .btn-small:focus, .btn-small:hover {
+    border-color: #31b898;
+    background-color: #31b898;
+}
+
+/*===================================================================================*/
+/*	SERVICE SECTION
+/*===================================================================================*/
+
+.service .post:before {
+	border-top-color: #31b898;
+	border-bottom-color: #31b898;
+} 
+.service .post:after {
+	border-left-color: #31b898;
+	border-right-color: #31b898;
+} 
+.service .post .post-thumbnail, .service .post .post-thumbnail a { color: #31b898; }
+
+/*===================================================================================*/
+/*	FUNFACT SECTION
+/*===================================================================================*/
+
+.funfact-inner:hover i.funfact-icon { color: #31b898; }
+
+/*===================================================================================*/
+/*	PORTFOLIO SECTION
+/*===================================================================================*/
+
+.portfolio .post .entry-title a:hover, .portfolio .post .entry-title a:focus { color: #31b898; }
+.portfolio .post i, .portfolio-tabs li a:before { background-color: #31b898; }
+.portfolio-next-prev li a:hover { border:2px solid #31b898; }
+
+/*===================================================================================*/
+/*	HOMEPAGE BLOG SECTION 
+/*===================================================================================*/
+
+.entry-header .entry-title > a:hover, .entry-header .entry-title > a:focus,
+.item-meta a:hover, .item-meta a:focus, .entry-meta a:hover, .entry-meta a:focus { 
+	color: #31b898; 
+}
+.more-link { background-color: #31b898; border: 2px solid #31b898; }
+.pagination a:hover, .pagination a.active { background-color: #31b898; border: 1px solid #31b898; }
+.reply a:hover, .reply a:focus { color: #31b898; }
+.widget .tagcloud a:hover { background-color: #31b898; border: 1px solid #31b898; color: #ffffff !important; }
+.widget #wp-calendar a:hover, .widget #wp-calendar #next a:hover, .widget #wp-calendar #prev a:hover { color: #31b898; }
+.widget a:hover, .widget a:focus,  .widget .post .entry-title a:hover, .widget .post .entry-title a:focus { color: #31b898 !important; }
+blockquote { border-left: 2px solid #31b898; }
+blockquote:before { color: #31b898; }
+table td > a { color: #31b898; font-weight: 600; box-shadow: 0 1px 0 0 currentColor; }
+.widget_archive a:hover, .widget_categories a:hover, .widget_links a:hover, .widget_meta a:hover, .widget_nav_menu a:hover, .widget_pages a:hover, .widget_recent_comments a:hover, .widget_recent_entries a:hover, .widget ul#recentcomments li.recentcomments span.comment-author-link:hover {
+	color: #31b898;
+}
+
+/*===================================================================================*/
+/*	FOOTER COPYRIGHTS - SITE INFO
+/*===================================================================================*/
+
+.site-info a:hover, .site-info a:focus { color: #31b898; }
+
+/*===================================================================================*/
+/*	TESTIMONIAL SECTION
+/*===================================================================================*/
+
+.testmonial-block:before, .testmonial-block .designation { color: #31b898; }
+
+/*===================================================================================*/
+/*	SHOP SECTION
+/*===================================================================================*/
+
+.add-to-cart a { background-color: #31b898; }
+.rating li i { color: #31b898; }
+
+/*===================================================================================*/
+/*	PAGE TITLE SECTION 
+/*===================================================================================*/
+
+.page-breadcrumb > li a:hover, .page-breadcrumb > li a:focus { color: #31b898; }
+
+/*===================================================================================*/
+/*	ABOUT US PAGE SECTION 
+/*===================================================================================*/
+
+.about-img-area img { 
+	border-radius: 2px; 
+	-webkit-box-shadow: -30px -30px 0px 0px #31b898;
+	-moz-box-shadow: -30px -30px 0px 0px #31b898;
+	box-shadow: -30px -30px 0px 0px #31b898;
+}
+
+/*===================================================================================*/
+/*	TEAM SECTION
+/*===================================================================================*/
+
+.team-showcase-overlay { background: rgba(0, 167, 209, 0.6); }
+.team-caption .designation { color: #31b898; }
+
+/*===================================================================================*/
+/*	CONTACT & ADDRESS INFORMATION SECTION 
+/*===================================================================================*/
+
+.contact-block:before {
+	border-top-color: #31b898;
+	border-bottom-color: #31b898;
+} 
+.contact-block:after {
+	border-left-color: #31b898;
+	border-right-color: #31b898;
+} 
+.contact-block i.fa { color: #31b898; }
+
+/*===================================================================================*/
+/*	PAGE SCROLL UP
+/*===================================================================================*/
+
+.scroll-up, .scroll-up:hover, .scroll-up:focus { background-color: #31b898; }
+
+/*===================================================================================*/
+/*	Breadcrumbs
+/*===================================================================================*/
+
+.page-breadcrumb li a {
+	color: #31b898;
+	text-decoration: underline;
+}
+.page-breadcrumb li.active a {
+	color: #6a6a6a;
+	text-decoration: none;
+}
+/*===================================================================================*/
+/*	Main page
+/*===================================================================================*/
+.about-us .user-photo {
+	border: 3px double #b3a8a8;
+}
+/*Block with rental apartment*/
+.home-objects > li {
+	display: flex;
+	flex-direction: column;
+	box-sizing: content-box;
+	list-style: none;
+	margin-bottom: 10px;
+	width: 30%;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+	padding: 0;
+	overflow: hidden;
+}
+.home-objects .obj-image img {
+	border: 7px solid #fff;
+	border-radius: 11px;
+}
+.home-objects .obj-btn {
+	display: block;
+	color: #fff;
+	padding: 10px 0;
+	background: #31b898 !important;
+}
+.home-objects .obj-btn:hover{
+	background: #36B097 !important;
+}
+
+.contact-btn {
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 10px;
+}
+.contact-btn:hover {
+	color: #fff;
+	background: #36B097 !important;
+}
+
+/*===================================================================================*/
+/*	Objects list
+/*===================================================================================*/
+.category-list h5.entry-title a:hover {
+	color: #36B097 !important;
+}
+
+/*===================================================================================*/
+/*	Header
+/*===================================================================================*/
+.navbar-content .fa {
+	color: #31b898 !important;
+}
+.navbar-custom .logo-text {
+	font-size: 28px;
+	font-weight: 400;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 1200px) {
+	.navbar-custom .navbar-nav li > a {
+		color: #000;
+		padding: 8px 10px;
+		font-family: Tahoma-Regular, Sans-serif;
+	}
+	.navbar-custom .navbar-nav > li {
+		background: rgb(240, 240, 240);
+		border-radius: 5px;
+	}
+	.navbar-custom > .navbar-nav > li:hover {
+		background: #31b898 !important;
+		color: #fff;
+		border-radius: 5px;
+	}
+
+	.navbar-custom > .navbar-nav > li a:hover,
+	.navbar-custom > .navbar-nav > li.active a:hover{
+		border-radius: 5px;
+		color: #fff;
+	}
+	.navbar-custom .navbar-nav li > a
+	.navbar-custom .navbar-nav > .active > a,
+	.navbar-custom .navbar-nav > .active > a:hover,
+	.navbar-custom .navbar-nav > .active > a:focus {
+		color: #fff;
+		background: #31b898 !important;
+	}
+
+	.navbar-custom .navbar-nav > .active > a {
+		color: #fff;
+		background: #31b898 !important;
+		border-radius: 5px;
+	}
+
+	.navbar-custom .dropdown-menu {
+		background: transparent;
+		-webkit-box-shadow: 1px 10px 7px -2px rgba(0,0,0,0.28);
+		-moz-box-shadow: 1px 10px 7px -2px rgba(0,0,0,0.28);
+		box-shadow: 1px 10px 7px -2px rgba(0,0,0,0.28);
+	}
+	.navbar-custom .dropdown-menu > li:last-child > a {
+		border-bottom: none !important;
+	}
+	.navbar-custom .dropdown-menu > li {
+		background: #fff;
+	}
+	.navbar-custom .navbar-nav li > a:hover {
+		border-radius:5px;
+		color: #fff;
+	}
+	.navbar-custom .navbar-nav li:hover {
+		background: #31b898 !important;
+	}
+	.navbar-custom .navbar-nav > li > a:focus {
+		color: #fff;
+	}
+	.navbar-custom .navbar-nav > li > a:focus,
+	.navbar-custom .navbar-nav > li > a:hover,
+	.navbar-custom .navbar-nav .open > a,
+	.navbar-custom .navbar-nav .open > a:focus,
+	.navbar-custom .navbar-nav .open > a:hover,
+	.navbar-custom .navbar-nav > .active > a,
+	.navbar-custom .navbar-nav > .active > a:hover,
+	.navbar-custom .navbar-nav > .active > a:focus {
+		color: #fff;
+	}
+	.navbar-custom .dropdown-menu > .active > a,
+	.navbar-custom .dropdown-menu > .active > a:hover,
+	.navbar-custom .dropdown-menu > .active > a:focus {
+		background-color: #31b898 !important;
+	}
+
+}
+
+
+/*===================================================================================*/
+/*	Apartment page
+/*===================================================================================*/
+
+.price-container {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	color: #fff;
+	background: #31b898 !important;
+	width: 70px;
+	height: 70px;
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*===================================================================================*/
+/*	Footer
+/*===================================================================================*/
+
+.site-footer {
+	color: #fff;
+}
+/*social media*/
+.fa-facebook:hover {
+	color: #3B5998;
+}
+.fa-linkedin-square:hover {
+	color: #0075b5;
+}
+.fa-instagram:hover {
+	color: #fff;
+}
+.fa-twitter-square:hover {
+	color: #00acee;
+}

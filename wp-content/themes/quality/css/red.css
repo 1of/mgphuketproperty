@@ -1,0 +1,397 @@
+/*
+* Author: Quality
+* Created by: Shahid (Scientech IT)
+* Copyright (c) 2018 Quality
+* Date: 23 April, 2018
+* http://www.webriti.com
+* Name: default.css
+*/
+
+
+/*===================================================================================*/
+/*	NAVBAR
+/*===================================================================================*/
+
+
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav .open > a,
+.navbar-custom .navbar-nav .open > a:focus,
+.navbar-custom .navbar-nav .open > a:hover, 
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+	color: #f8504b;
+}
+.cart-header:hover > a { color: #f8504b; }
+.cart-header > a .cart-total { background: #f8504b; }
+
+a{ color: #f8504b;}
+
+body a:hover, body a:focus {
+	color: #F87648;
+	outline: none;
+	text-decoration: none;
+}
+
+#searchsubmit {
+    background-color: #f8504b;
+    border: 2px solid #f8504b;
+}
+
+.pagination .nav-links .page-numbers.current 
+{ background-color: #f8504b; border: 1px solid #f8504b;}
+
+/*===================================================================================*/
+/*	HEADER CONTACT DETAILS
+/*===================================================================================*/
+
+.header-sidebar { background: #f8504b; }
+
+/*===================================================================================*/
+/*	MAIN SLIDER
+/*===================================================================================*/
+
+.slider-caption h1:after, .slide-btn-sm, input[type="submit"], input[type="reset"]:hover{ background: #f8504b; }
+
+/*===================================================================================*/
+/*	OWL SLIDER NEXT - PREV BUTTONS
+/*===================================================================================*/
+
+.owl-carousel .owl-prev:hover, .owl-carousel .owl-next:hover, 
+#portfolio-carousel .owl-prev:hover, #portfolio-carousel .owl-next:hover, 
+#testimonial-carousel .owl-prev:hover, #testimonial-carousel .owl-next:hover { 
+	background-color: rgba(1, 79, 89, 1);
+}
+
+/*===================================================================================*/
+/*	OWL SLIDER / DOTS PAGINATIONS
+/*===================================================================================*/
+
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span, 
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #f8504b;
+	border: 2px solid #f8504b;
+}
+
+/*===================================================================================*/
+/*	SECTION HEADER
+/*===================================================================================*/
+
+hr.divider { background-color: #f8504b; }
+
+/*===================================================================================*/
+/*	MIXED CLASSES
+/*===================================================================================*/
+
+.bg-default { background-color: #f8504b; }
+.text-default { color: #f8504b; }
+.btn-large, .wpcf7-submit { background-color: #f8504b; border: 2px solid #f8504b; }
+.btn-small:active, .btn-small:focus, .btn-small:hover {
+    border-color: #f8504b;
+    background-color: #f8504b;
+}
+
+/*===================================================================================*/
+/*	SERVICE SECTION
+/*===================================================================================*/
+
+.service .post:before {
+	border-top-color: #f8504b;
+	border-bottom-color: #f8504b;
+} 
+.service .post:after {
+	border-left-color: #f8504b;
+	border-right-color: #f8504b;
+} 
+.service .post .post-thumbnail a { color: #f8504b; }
+
+.service .post .post-thumbnail { color: #f8504b; }
+/*===================================================================================*/
+/*	FUNFACT SECTION
+/*===================================================================================*/
+
+.funfact-inner:hover i.funfact-icon { color: #f8504b; }
+
+/*===================================================================================*/
+/*	PORTFOLIO SECTION
+/*===================================================================================*/
+
+.portfolio .post .entry-title a:hover, .portfolio .post .entry-title a:focus { color: #f8504b; }
+.portfolio .post i, .portfolio-tabs li a:before { background-color: #f8504b; }
+
+/*===================================================================================*/
+/*	HOMEPAGE BLOG SECTION 
+/*===================================================================================*/
+
+.entry-header .entry-title > a:hover, .entry-header .entry-title > a:focus,
+.item-meta a:hover, .item-meta a:focus, .entry-meta a:hover, .entry-meta a:focus { 
+	color: #f8504b; 
+}
+.more-link { background-color: #f8504b; border: 2px solid #f8504b; }
+.pagination a:hover, .pagination a.active { background-color: #f8504b; border: 1px solid #f8504b; }
+.reply a:hover, .reply a:focus { color: #f8504b; }
+.widget .tagcloud a:hover { background-color: #f8504b; border: 1px solid #f8504b; color: #ffffff !important; }
+.widget #wp-calendar a:hover, .widget #wp-calendar #next a:hover, .widget #wp-calendar #prev a:hover { color: #f8504b; }
+.widget a:hover, .widget a:focus,  .widget .post .entry-title a:hover, .widget .post .entry-title a:focus { color: #f8504b !important; }
+blockquote { border-left: 2px solid #f8504b; }
+blockquote:before { color: #f8504b; }
+
+/*===================================================================================*/
+/*	FOOTER COPYRIGHTS - SITE INFO
+/*===================================================================================*/
+
+.site-info a:hover, .site-info a:focus { color: #f8504b; }
+
+/*===================================================================================*/
+/*	TESTIMONIAL SECTION
+/*===================================================================================*/
+
+.testmonial-block:before, .testmonial-block .designation { color: #f8504b; }
+
+/*===================================================================================*/
+/*	SHOP SECTION
+/*===================================================================================*/
+
+.add-to-cart a { background-color: #f8504b; }
+.rating li i { color: #f8504b; }
+
+/*===================================================================================*/
+/*	PAGE TITLE SECTION 
+/*===================================================================================*/
+
+.page-breadcrumb > li a:hover, .page-breadcrumb > li a:focus { color: #f8504b; }
+
+/*===================================================================================*/
+/*	ABOUT US PAGE SECTION 
+/*===================================================================================*/
+
+.about-img-area img { 
+	border-radius: 2px; 
+	-webkit-box-shadow: -30px -30px 0px 0px #f8504b;
+	-moz-box-shadow: -30px -30px 0px 0px #f8504b;
+	box-shadow: -30px -30px 0px 0px #f8504b;
+}
+
+/*===================================================================================*/
+/*	TEAM SECTION
+/*===================================================================================*/
+
+.team-showcase-overlay { background: rgba(0, 167, 209, 0.6); }
+.team-caption .designation { color: #f8504b; }
+
+/*===================================================================================*/
+/*	CONTACT & ADDRESS INFORMATION SECTION 
+/*===================================================================================*/
+
+.contact-block:before {
+	border-top-color: #f8504b;
+	border-bottom-color: #f8504b;
+} 
+.contact-block:after {
+	border-left-color: #f8504b;
+	border-right-color: #f8504b;
+} 
+.contact-block i.fa { color: #f8504b; }
+
+/*===================================================================================*/
+/*	PAGE SCROLL UP
+/*===================================================================================*/
+
+.scroll-up, .scroll-up:hover, .scroll-up:focus { background-color: #f8504b; }
+
+/*===================================================================================*/
+/*	Breadcrumbs
+/*===================================================================================*/
+
+.page-breadcrumb li a {
+	color: #f8504b;
+	text-decoration: underline;
+}
+.page-breadcrumb li.active a {
+	color: #6a6a6a;
+	text-decoration: none;
+}
+/*===================================================================================*/
+/*	Main page
+/*===================================================================================*/
+.about-us .user-photo {
+	border: 3px double #b3a8a8;
+}
+/*Block with rental apartment*/
+.home-objects > li {
+	display: flex;
+	flex-direction: column;
+	box-sizing: content-box;
+	list-style: none;
+	margin-bottom: 10px;
+	width: 30%;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+	padding: 0;
+	overflow: hidden;
+}
+.home-objects .obj-image img {
+	border: 7px solid #fff;
+	border-radius: 11px;
+}
+.home-objects .obj-btn {
+	display: block;
+	color: #fff;
+	padding: 10px 0;
+	background: #f8504b !important;
+}
+.home-objects .obj-btn:hover{
+	background: #F87648 !important;
+}
+
+.contact-btn {
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 10px;
+}
+.contact-btn:hover {
+	color: #fff;
+	background: #F87648 !important;
+}
+
+/*===================================================================================*/
+/*	Objects list
+/*===================================================================================*/
+.category-list h5.entry-title a:hover {
+	color: #F87648 !important;
+}
+
+/*===================================================================================*/
+/*	Header
+/*===================================================================================*/
+.navbar-content .fa {
+	color: #f8504b !important;
+}
+.navbar-custom .logo-text {
+	font-size: 28px;
+	font-weight: 400;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 991px) {
+	.navbar-custom .navbar-nav li > a {
+		color: #000;
+		padding: 8px 10px;
+		font-family: Calibri, Sans-serif;
+	}
+	.navbar-custom .navbar-nav > li {
+		background: rgb(240, 240, 240);
+		border-radius: 5px;
+	}
+	.navbar-custom > .navbar-nav > li:hover {
+		background: #f8504b !important;
+		color: #fff;
+		border-radius: 5px;
+	}
+
+	.navbar-custom > .navbar-nav > li a:hover,
+	.navbar-custom > .navbar-nav > li.active a:hover{
+		border-radius: 5px;
+		color: #fff;
+	}
+	.navbar-custom .navbar-nav li > a
+	.navbar-custom .navbar-nav > .active > a,
+	.navbar-custom .navbar-nav > .active > a:hover,
+	.navbar-custom .navbar-nav > .active > a:focus {
+		color: #fff;
+		background: #f8504b !important;
+	}
+
+	.navbar-custom .navbar-nav > .active > a {
+		color: #fff;
+		background: #f8504b !important;
+		border-radius: 5px;
+	}
+
+	.navbar-custom .dropdown-menu {
+		background: transparent;
+		-webkit-box-shadow: 1px 10px 7px -2px rgba(0,0,0,0.28);
+		-moz-box-shadow: 1px 10px 7px -2px rgba(0,0,0,0.28);
+		box-shadow: 1px 10px 7px -2px rgba(0,0,0,0.28);
+	}
+	.navbar-custom .dropdown-menu > li:last-child > a {
+		border-bottom: none !important;
+	}
+	.navbar-custom .dropdown-menu > li {
+		background: #fff;
+	}
+
+	.navbar-custom .navbar-nav li > a:hover {
+		border-radius:5px;
+		color: #fff;
+	}
+	.navbar-custom .navbar-nav li:hover {
+		background: #f8504b !important;
+	}
+	.navbar-custom .navbar-nav > li > a:focus {
+		color: #fff;
+	}
+	.navbar-custom .navbar-nav > li > a:focus,
+	.navbar-custom .navbar-nav > li > a:hover,
+	.navbar-custom .navbar-nav .open > a,
+	.navbar-custom .navbar-nav .open > a:focus,
+	.navbar-custom .navbar-nav .open > a:hover,
+	.navbar-custom .navbar-nav > .active > a,
+	.navbar-custom .navbar-nav > .active > a:hover,
+	.navbar-custom .navbar-nav > .active > a:focus {
+		color: #fff;
+	}
+	.navbar-custom .dropdown-menu > .active > a,
+	.navbar-custom .dropdown-menu > .active > a:hover,
+	.navbar-custom .dropdown-menu > .active > a:focus {
+		background-color: #f8504b !important;
+	}
+	
+}
+
+
+/*===================================================================================*/
+/*	Apartment page
+/*===================================================================================*/
+
+.price-container {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	color: #fff;
+	background: #f8504b !important;
+	width: 70px;
+	height: 70px;
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*===================================================================================*/
+/*	Footer
+/*===================================================================================*/
+
+.site-footer {
+	color: #fff;
+}
+/*social media*/
+.fa-facebook:hover {
+	color: #3B5998;
+}
+.fa-linkedin-square:hover {
+	color: #0075b5;
+}
+.fa-instagram:hover {
+	color: #fff;
+}
+.fa-twitter-square:hover {
+	color: #00acee;
+}
+
+
