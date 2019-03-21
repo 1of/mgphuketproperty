@@ -846,6 +846,12 @@ input[type="submit"]:hover {
 	}
 }
 
+@media (min-width: 1200px) {
+	.header-contacts {
+		margin-left: 8%;
+	}
+}
+
 /*===================================================================================*/
 /*	Contact Modal
 /*===================================================================================*/
@@ -886,7 +892,7 @@ input[type="submit"]:hover {
 	background-image: linear-gradient(to bottom,#36B097,#36B097);
 }
 /*===================================================================================*/
-/*	Contact Modal
+/*	Кнопка запросить обьекты
 /*===================================================================================*/
 .btn-request:hover {
 	cursor: pointer;
@@ -896,10 +902,4 @@ input[type="submit"]:hover {
 	border: none;
 	background: transparent;
 	color: #31b898;
-}
-
-@media (min-width: 1200px) {
-	.header-contacts {
-		margin-left: 8%;
-	}
 }
