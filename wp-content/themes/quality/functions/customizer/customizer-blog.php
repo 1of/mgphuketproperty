@@ -1,4 +1,4 @@
- <?php
+<?php
 function quality_blog_customizer( $wp_customize ) {
 	//Blog Heading section 
 	$wp_customize->add_section(
@@ -111,4 +111,4 @@ $wp_customize->selective_refresh->add_partial( 'quality_pro_options[home_blog_de
 	
 }
 add_action( 'customize_register', 'quality_register_home_blog_section_partials' );
-	?>
+?>

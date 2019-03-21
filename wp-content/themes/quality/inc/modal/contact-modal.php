@@ -7,7 +7,7 @@
                 <h4 class="modal-title" id="myModalLabel">Заполните форму</h4>
             </div>
             <div class="modal-body">
-                <?php echo do_shortcode('[contact-form-7 id="598" title="Модальное окно"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="642" title="Модальное окно"]'); ?>
             </div>
         </div>
     </div>
