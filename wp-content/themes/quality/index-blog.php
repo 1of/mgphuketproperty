@@ -102,13 +102,14 @@ if (query_posts($args)) {
     wp_reset_query();}
     ?>
     </div>
-    </div>
-    <!-- End Blog Section ---->
         <div class="row">
             <?php
             the_post();
             the_content(); ?>
         </div>
+    </div>
+    <!-- End Blog Section ---->
+
     </section>
     <?php
     get_footer();
