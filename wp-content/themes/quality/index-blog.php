@@ -17,12 +17,11 @@ if (($current_options['blog_heading']) || ($current_options['home_blog_descripti
     <div class="row">
         <div class="section-header">
             <?php if ($current_options['blog_heading']) { ?>
-                <p><?php echo $current_options['blog_heading']; ?></p>
+                <h1 class="text-left"><?php echo $current_options['blog_heading']; ?></h1>
             <?php }
             if ($current_options['home_blog_description']) { ?>
                 <h1 class="widget-title"><?php echo $current_options['home_blog_description']; ?></h1>
             <?php } ?>
-            <hr class="divider">
         </div>
     </div>
 <?php } ?>

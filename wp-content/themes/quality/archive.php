@@ -8,7 +8,7 @@ get_header();
                     bcn_display();
                 } ?>
             </div>
-            <h1><?php
+            <h1 class="category-header"><?php
                 echo post_type_archive_title();
 
                 ?></h1>

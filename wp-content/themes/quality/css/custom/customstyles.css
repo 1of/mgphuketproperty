@@ -241,6 +241,9 @@ div.breadcrumbs span {
 	padding: 0;
 	width: 32%;
 }
+.category-header {
+	padding-top: 30px;
+}
 
 /*===================================================================================*/
 /*	Header

@@ -10,7 +10,7 @@ get_header();
             </div>
 
             <div class="row">
-                <h1><?php echo single_term_title(); ?></h1>
+                <h1 class="category-header"><?php echo single_term_title(); ?></h1>
                 <button class="btn-request" data-toggle="modal" data-target="#contact-modal">
                     Запросить актуальные объекты
                 </button>
