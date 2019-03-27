@@ -205,34 +205,3 @@ function themes_taxonomy() {
 }
 add_action( 'init', 'themes_taxonomy');
 
-add_action('wpcf7_mail_sent', function ($cf7) {
-    // Run code after the email has been sent
-    $wpcf = WPCF7_ContactForm::get_current();
-    $wpccfid=$wpcf->id;
-    // if you wanna check the ID of the Form $wpcf->id
-    if ( '598' !== $wpccfid ) { // Change 123 to the ID of the form
-        echo '
- <div class="modal fade in formids" id="myModal2" role="dialog" style="display:block;" tabindex="-1">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content no_pad text-center">
-         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <div class="modal-header heading">
-          <h3 class="modal-title">Message Sent!</b></h3>
-        </div>
-        <div class="modal-body">
-
-            <div class="thanku_outer define_float text-center">
-                <h3>Thank you for getting in touch!</h3>
-            </div>
-        </div>
-        <div class="modal-footer">
-        </div>
-      </div>
-
-    </div>
-    </div>
-';
-    }
-});

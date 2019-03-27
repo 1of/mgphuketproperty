@@ -906,3 +906,10 @@ input[type="submit"]:hover {
 	background: transparent;
 	color: #31b898;
 }
+
+#send-ok-modal .modal-header {
+	padding-bottom: 30px;
+}
+#send-ok-modal .default-btn {
+	width: 75px;
+}
